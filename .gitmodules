@@ -1,0 +1,4 @@
+[submodule "themes/hugo-creative-theme"]
+	path = themes/hugo-creative-theme
+	url = https://github.com/kc0bfv/hugo-creative-theme.git
+	branch = rel_graph_branch

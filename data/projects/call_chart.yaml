@@ -1,0 +1,7 @@
+modalID: 2
+title: Call Tree
+img: call_chart.png
+client: Demo File
+clientLink: https://kc0bfv.github.io/relationship_graph/demos/call_tree_demo.html
+category: Example
+description: An emergency-notification call tree, displaying who calls whom in the event of an emergency notification event.  Phone numbers and addresses are stored as node data.

@@ -1,0 +1,69 @@
+baseURL = "https://relgraph.notmet.net/"
+languageCode = "en-us"
+title = "Relationship Graph"
+theme = "hugo-creative-theme"
+#googleAnalytics = ""
+
+[params]
+    name = "Relationship Graph"
+    description = "A flexible way to graph the relationships between entities of different types.  Provides a configurable form-entry system to simplify data entry.  Data is stored as JSON, so it's easy to programmatically manipulate.  No external resources are required, so your data is as private as you keep the saved files.  The tool is entirely browser-based, so it works just about anywhere these days."
+
+    favicon = "favicon.png"
+
+    font_awesome_kit = "18869afe50"
+
+    [params.navigation]
+        brand = "Relationship Graph"
+        [params.navigation.links]
+            about = "About"
+            services = "Details"
+            portfolio = "Examples"
+            aside = "Try It"
+            contact = "Contact"
+
+    [params.hero]
+        slogan = "Organize Data as a Graph: Easily"
+        subtitle = "Relationship Graph is a one-file tool for simplifying graph building"
+        buttonText = "Learn More"
+
+    [params.about]
+        headline = "Simplify Understanding of your Data"
+        description = "Graphs provide a simple way of representing a huge variety of data, but they're not always simple to build, modify, or share.  Relationship Graph makes sharing data easy while protecting your privacy.  \n\n* Specify standard node types, node data fields, and edge relationship types \n* Add nodes and relationships quickly and consistently via form fields \n* Automatically arrange graph nodes to fit \n* Your data, and the graphing and display tool, are located in one easy-to-move file \n* All powered by any modern browser" 
+
+    [params.services]
+        headline = "Details"
+    [[params.services.list]]
+        icon = "fa-sitemap"
+        title = "Data: Organized"
+        description = "Represent distinct things and ideas as nodes.  Represent any relationships between things/ideas as edges."
+    [[params.services.list]]
+        icon = "fa-lock"
+        title = "Privacy Protecting"
+        description = "All content remains under your control.  No external resources are requested, so your data cannot be sent outside your own browser.  Your data is exactly as private as your saved files."
+    [[params.services.list]]
+        icon = "fa-share-alt"
+        title = "Easily Shared"
+        description = "Saved files are their own copy of the Relationship Graph tool.  Sharing a saved file shares the entire tool.  No external software is required.  This is gratis and open source."
+    [[params.services.list]]
+        icon = "fa-file-export"
+        title = "Easy to Export"
+        description = "Data is stored as JSON, which can be easily transformed into many other formats for other tools."
+
+    [params.portfolio]
+        show_text_always = true
+        [params.portfolio.modal]
+            client = ""
+            date = ""
+            category = ""
+            buttonText = "Close"
+
+    [params.aside]
+        headline = "Try it now!  The tool is hosted via GitHub."
+        [params.aside.button]
+            text = "Try Now"
+            link = "https://kc0bfv.github.io/relationship_graph/"
+
+    #[params.contact]
+        #headline = "Contact Us"
+        #description = "Having trouble?  Have questions?  Please reach out to me via email."
+        #email = "kc0bfv@gmail.com"
