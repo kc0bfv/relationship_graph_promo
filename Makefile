@@ -1,3 +1,2 @@
 all:
-	hugo
-	mv public docs
+	hugo -d docs
